@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+body {
+    width: 100vw;
+    background-color:#352f44;
+
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #161515;
+    /* background-image: url("https://media.istockphoto.com/id/1371966433/photo/black-carbon-fiber-motion-background-technology-wavy-line-with-red-glowing-light-3d.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y9HAecSyEHh3BOAOEkWX8uV5VXbUyOiuNHVWzq7UZPc="); */
+    background-size: cover;
+}
+
+h1 {
+    font-family:monospace;
+}
+
+.sides{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sides {
+    width: 100%;
+}
+
+.sides .side_left, .side_right {
+    /* border: 0.5px solid ; */
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 7px;
+    min-height: 95vh;
+    margin-top: 10px;
+    box-sizing: border-box;
+    /* margin-bottom: 30px; */
+    box-shadow: 0 0 3px 0;
+    z-index: 999;
+}
+
+.side_left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    
+}
+
+.side_left h2 {
+    margin-bottom: 0;
+    font-family:monospace;
+}
+.side_left .info_card {
+    width: 95%;
+    min-height: 95vh;
+    /* border: 1px solid; */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.side_left .info_card h3, p{
+    width: 100%;
+    margin-bottom: 5px;
+    font-family:monospace;
+} 
+
+.side_left .info_card .personal_info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.side_left .info_card .greet {
+    margin-top: 5px;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.side_left .info_card .image {
+    width: 100%;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+}
+
+.side_left .info_card .image img {
+    border: 3px solid #dbd8e3;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+
+.side_left .info_card .contact_info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.side_left .info_card .contact_info  ul {
+    list-style-type: none;
+    width: 100%;
+}
+
+.side_left .info_card .contact_info  ul li {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.side_left .info_card .contact_info ul li a  {
+    color: white;
+}
+
+.side_right {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: 30px;
+}
+
+.side_right .about_section {
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.side_right .about_section p {
+    margin-left: 50px;
+    font-size:x-large;
+    font-weight:500;
+    padding: 5px;
+    line-height: 35px;
+}
+.side_right h2 {
+    font-size:xx-large;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: left;
+    margin-left: 50px;
+    border-left: 3px solid;
+    padding-left: 5px;
+    border-color: gold;
+}
+
+.side_right .skills_section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.side_right .skills_section ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.side_right .skills_section ul li {
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: large;
+}
+
+.container .projects_section {
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 3px 0;
+    margin-bottom: 30px;
+}
+
+.container .projects_section h2 {
+    width: 100%;
+    margin: 50px;
+    border-left: 3px solid;
+    padding-left: 5px;
+    border-color: gold;
+}
+
+.container .projects_section .project {
+    width: 100%;
+    height: 300px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container  .projects_section .project .info {
+    padding: 10px;
+    font-size:large;
+    font-weight:500;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+.container .projects_section .project .image {
+    width: 30%;
+    height: 95%;
+    margin: 5px 0 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.img1 {
+    background: url("./img/Screenshot\ from\ 2024-11-12\ 16-24-30.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2 {
+    background: url("./img/groupie_\ 2024-11-12\ 17-03-14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3 {
+    background: url("./img/atm_2024-11-12\ 17-36-47.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4 {
+    background: url("./img/nte-cat_2024-11-12\ 17-48-50.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container .projects_section .project h3 {
+    background-color:  #2a2438;
+    padding: 5px;
+    z-index: 999;
+}
+
+.container .projects_section .project .info {
+    width: 69%;
+    height: 95%;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.prt_link {
+    text-decoration: none;
+    color: white;
+}
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    background-color:  #2a2438;
+}
+
